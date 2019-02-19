@@ -15,9 +15,40 @@ html {
   align-items: center;
 }
 
-.containerform {
-  border: 3px solid #56CC9D;
-  border-radius: 10px;
-  margin: 30px 350px 15px 350px;
-  padding: 30px;
+.banner-container {
+  height: 250px;
+  background-image : url("https://transhumanistes.com/wp-content/uploads/2018/01/Strasbourg-1000x300.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
+
+.title-h1 {
+  color: #ffff;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100px;
+}
+
+.title-h5 {
+  color: #ffff;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 150px;
+}
+
+.cta-1-banner, .cta-2-banner {
+  position: absolute;
+  margin: 20px;
+  top: 165px;
+
+}
+
+.cta-1-banner{right: 50%;}
+.cta-2-banner{left: 50%;}
