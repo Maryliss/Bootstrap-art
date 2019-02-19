@@ -14,3 +14,10 @@ html {
   flex-direction: row;
   align-items: center;
 }
+
+.containerform {
+  border: 3px solid #56CC9D;
+  border-radius: 10px;
+  margin: 30px 350px 15px 350px;
+  padding: 30px;
+}
